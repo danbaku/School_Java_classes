@@ -1,0 +1,9 @@
+public class MyThread extends Thread {
+    public void run() {
+        // 线程的执行逻辑
+    }
+}
+
+// 创建线程示例
+MyThread thread = new MyThread();
+thread.start();

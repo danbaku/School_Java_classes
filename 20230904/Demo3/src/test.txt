@@ -1,0 +1,18 @@
+public class Car {
+    private String brand;
+    private String color;
+
+    // 构造方法
+    public Car(String brand, String color) {
+        this.brand = brand;
+        this.color = color;
+    }
+
+    // 其他方法...
+
+    public static void main(String[] args) {
+        // 创建对象并调用构造方法
+        Car myCar = new Car("Toyota", "Red");
+        // 其他操作...
+    }
+}
